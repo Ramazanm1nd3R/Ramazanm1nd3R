@@ -33,7 +33,7 @@
 ### LeetCode:
 
 <div align="center">
-  <img src="[https://streak-stats.demolab.com?user=filimonovalexey&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3](https://leetcard.jacoblin.cool/Ramazan_OSpan?theme=dark&font=Inder&ext=heatmap)" height="220" alt="streak graph"  />
+  <img src="https://leetcard.jacoblin.cool/Ramazan_OSpan?theme=dark&font=Inder&ext=heatmap" height="220" alt="streak graph"  />
 </div>
 
 ###
