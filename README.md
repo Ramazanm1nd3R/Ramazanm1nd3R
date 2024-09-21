@@ -26,9 +26,9 @@
 ### 💻 Моя статистика
 
 ### Codewars:
-
-![codewars](https://www.codewars.com/users/RomaM1ndeR/badges/large)
-
+<div align="center">
+  ![codewars](https://www.codewars.com/users/RomaM1ndeR/badges/large)
+</div>
 
 ### LeetCode:
 
