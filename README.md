@@ -23,7 +23,17 @@
 <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
 </p>
 
+### 💻 Моя статистика
 
-### 💻 Codewars:
+### Codewars:
 
 ![codewars](https://www.codewars.com/users/RomaM1ndeR/badges/large)
+
+
+### LeetCode:
+
+<div align="center">
+  <img src="[https://streak-stats.demolab.com?user=filimonovalexey&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3](https://leetcard.jacoblin.cool/Ramazan_OSpan?theme=dark&font=Inder&ext=heatmap)" height="220" alt="streak graph"  />
+</div>
+
+###
