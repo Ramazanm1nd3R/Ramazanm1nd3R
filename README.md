@@ -1,3 +1,7 @@
+================================================================================================================================
+DevOps Engineer
+
+
 ### 🤝 Социальные сети:
 
 <a href="https://www.instagram.com/qwertys.__?igsh=b2hybXo0NnJ6NHkw&utm_source=qr" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a>           <a href="https://www.linkedin.com/in/ramazan-ospan-226447295/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
