@@ -40,4 +40,6 @@ Backend developer
   <img src="https://leetcard.jacoblin.cool/Ramazan_OSpan?theme=dark&font=Inder&ext=heatmap" height="220" alt="streak graph"  />
 </div>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Ramazanm1nd3R&label=Profile%20views&color=0e75b6&style=flat" alt="Ramazanm1nd3R" /> </p>
+
 ###
