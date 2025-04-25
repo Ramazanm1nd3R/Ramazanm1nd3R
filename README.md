@@ -38,6 +38,7 @@ Developer
 
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/Ramazan_OSpan?theme=dark&font=Inder&ext=heatmap" height="220" alt="streak graph"  />
+  <figure><embed src="https://wakatime.com/share/@183cd610-9f8e-474c-b92d-4aeae634fd2f/8683d120-6c57-4e03-b491-93370efcc720.svg"></embed></figure>
 </div>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Ramazanm1nd3R&label=Profile%20views&color=0e75b6&style=flat" alt="Ramazanm1nd3R" /> </p>
