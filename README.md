@@ -1,96 +1,144 @@
-<!-- ===================== DECORATIVE BANNER ==================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0e75b6,50:00A1EA,100:6f42c1&height=160&section=header" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:07111f,35:0e75b6,70:00A1EA,100:7b2ff7&section=header&reversal=false&animation=twinkling" alt="header" />
 
-<!-- Name in plain markdown so it's readable on BOTH light & dark themes -->
-<h1 align="center">Hi, I'm Ramazan 👋</h1>
-<h3 align="center">ML / NLP Engineer — I build production AI systems</h3>
+<div align="center">
 
-<!-- ===================== TYPING ANIMATION ===================== -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=0E75B6&center=true&vCenter=true&width=560&lines=RAG+%E2%80%A2+Retrieval+%E2%80%A2+Vector+search;Prompt+engineering+%E2%80%A2+LLM+reliability;Embedding+fine-tuning+%26+rerankers;Multilingual+NLP+%E2%80%A2+RU+%2F+KZ+%2F+ZH" alt="typing" />
+# Hi, I'm Ramazan
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=900&color=00C2FF&center=true&vCenter=true&width=900&lines=RAG+systems+for+real+products;LLM+reliability%2C+retrieval%2C+reranking;Multilingual+NLP+for+RU+%2F+KZ+%2F+ZH;FastAPI+%2B+vector+DBs+%2B+clean+backend+architecture" alt="typing animation" />
+
+<p>
+  <a href="https://github.com/Ramazanm1nd3R"><img src="https://img.shields.io/badge/GitHub_Showcase-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Showcase" /></a>
+  <a href="https://www.linkedin.com/in/ramazan-ospan-226447295/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/Ramazan_OSpan/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=111111" alt="LeetCode" /></a>
+  <a href="https://www.codewars.com/users/RomaM1ndeR"><img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" /></a>
 </p>
 
-<!-- ===================== SOCIAL + VIEWS ====================== -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/ramazan-ospan-226447295/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/Ramazan_OSpan/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="https://www.codewars.com/users/RomaM1ndeR"><img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Ramazanm1nd3R&label=Views&color=0e75b6&style=for-the-badge" />
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Ramazanm1nd3R&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Location-Almaty%2C%20KZ-132235?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/badge/Focus-ML%20%7C%20NLP%20%7C%20Backend-0e75b6?style=for-the-badge" alt="Focus" />
 </p>
 
-<!-- ===================== QUICK FACTS ========================= -->
-<p align="center">
-  <img src="https://img.shields.io/badge/20_y.o.-555?style=flat-square" />
-  <img src="https://img.shields.io/badge/📍_Almaty,_KZ-555?style=flat-square" />
-  <img src="https://img.shields.io/badge/ML%2FNLP_Engineer-0e75b6?style=flat-square" />
-  <img src="https://img.shields.io/badge/SE_@_IITU-555?style=flat-square" />
-</p>
+</div>
 
 ---
 
-<!-- ============================================================ -->
-<!-- =================== SKILL GRAPH (compact) ================= -->
-<!-- ============================================================ -->
-### 🧬 What I do
+## Showcase
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:07111f,50:0e75b6,100:00A1EA&height=3&section=header" alt="divider" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/Ramazanm1nd3R">
+    <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ramazanm1nd3R&theme=tokyo-night&hide_border=true&area=true&color=00C2FF&line=7b2ff7&point=ffffff&radius=8" alt="Contribution graph" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://leetcode.com/Ramazan_OSpan/">
+    <img width="70%" src="https://leetcard.jacoblin.cool/Ramazan_OSpan?theme=dark&font=JetBrains+Mono&ext=heatmap" alt="LeetCode card" />
+  </a>
+</div>
+
+---
+
+## Architecture Map
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'JetBrains Mono','primaryColor':'#1f2430','primaryTextColor':'#e6e6e6','primaryBorderColor':'#00A1EA','lineColor':'#00A1EA'}}}%%
-graph LR
-    ME(("💡 Me")):::core
+%%{init: {'theme':'base','themeVariables':{'background':'#0b1220','primaryColor':'#132235','primaryTextColor':'#f4f7fb','primaryBorderColor':'#00C2FF','lineColor':'#7b2ff7','secondaryColor':'#0e75b6','tertiaryColor':'#0f172a'}}}%%
+graph TD
+    U["User Query"] --> RT["Routing Layer"]
+    U --> UI["React / SaaS UI"]
 
-    ME --> A["🧠 ML / NLP"]:::cat
-    ME --> B["⚙️ Backend &amp; Data"]:::cat
-    ME --> C["🎨 Frontend"]:::cat
+    RT --> RX["Regex routing"]
+    RT --> NLU["NLU validation"]
+    RT --> LLMCLS["LLM-based intent classification"]
+    RT --> SCORE["Weighted scoring counters"]
 
-    A --> A1["RAG · Retrieval · Vector search"]:::leaf
-    A --> A2["Embedding fine-tuning · Rerankers"]:::leaf
-    A --> A3["Guardrails · Jailbreak detection"]:::leaf
-    A --> A4["Multilingual NLP · NER / PII"]:::leaf
+    LLMCLS --> BED["AWS Bedrock / Nova Pro"]
+    BED --> PROMPT["System prompts and behavioral instructions"]
+    BED --> CALC["calcguard for arithmetic safety"]
+    BED --> EDGE["Edge-case handling"]
 
-    B --> B1["FastAPI · Milvus"]:::leaf
-    B --> B2["Kafka · Redis · Airflow"]:::leaf
-    B --> B3["PostgreSQL · Docker"]:::leaf
+    U --> RAG["RAG Orchestration"]
+    RAG --> DR["Dual rewrite for multi-product queries"]
+    RAG --> RET["Semantic retrieval debugging"]
+    RAG --> TAX["5-class hallucination taxonomy"]
+    TAX --> T1["INPUT_DISTORTION"]
+    TAX --> T2["KB_FAILURE"]
+    TAX --> T3["RETRIEVAL_FAILURE"]
+    TAX --> T4["LLM_FAILURE"]
+    TAX --> T5["AMBIGUOUS"]
 
-    C --> C1["React · Vite"]:::leaf
+    RAG --> VS["Vector Search Layer"]
+    VS --> MIL["Milvus collections"]
+    VS --> BG["Blue-green collection deploy"]
+    VS --> EMB["Fine-tuned embeddings"]
+    EMB --> E1["Arctic Embed"]
+    EMB --> E2["Jina v5"]
+    EMB --> E3["Triplet training for retrieval"]
 
-    classDef core fill:#6f42c1,stroke:#00C2FF,stroke-width:3px,color:#ffffff;
-    classDef cat fill:#0e75b6,stroke:#00A1EA,stroke-width:2px,color:#ffffff;
-    classDef leaf fill:#1f2430,stroke:#00A1EA,stroke-width:1px,color:#e6e6e6;
+    RAG --> KG["Knowledge Sources"]
+    KG --> PG["SQL BD / metadata"]
+    KG --> ORA["Oracle schemas / synced data"]
+    KG --> CONF["Confluence markdown / Graph RAG"]
+
+    RAG --> PIPE["Data Pipeline"]
+    PIPE --> AIR["Airflow DAGs"]
+    AIR --> PARSE["Page parsing"]
+    AIR --> FAQ["LLM FAQ generation"]
+    AIR --> SYNC["SQL BD <-> Milvus sync"]
+
+    U --> NLP["NLP Systems"]
+    NLP --> NER["NER training / fine-tuning"]
+    NER --> CONLL["CoNLL + synthetic datasets"]
+    NLP --> PII["PII anonymization pipeline"]
+    PII --> MLL["ML recognizer"]
+    PII --> POST["Regex / whitelist postfilter"]
+
+    UI --> DBUI["Database-driven constructors"]
+    DBUI --> DICT["Dictionaries"]
+    DBUI --> ROLE["Role models"]
+    DBUI --> KPI["KPI builders"]
+
+    APP["Backend Runtime"] --> FAST["FastAPI services"]
+    APP --> RED["Redis sessions / counters"]
+    APP --> DB["PostgreSQL / Oracle"]
+    APP --> OPS["Dockerized deployment"]
+
+    RAG --> APP
+    NLP --> APP
+    RT --> APP
+
+    style U fill:#7b2ff7,stroke:#00C2FF,stroke-width:3px,color:#ffffff
+    style RT fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style RAG fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style NLP fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style UI fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style APP fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
 ```
 
 ---
 
-<!-- ============================================================ -->
-<!-- ========================= STACK ============================ -->
-<!-- ============================================================ -->
-### ⚡ Tech Stack
+## Toolbox
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,js,pytorch,tensorflow,sklearn&theme=dark&perline=6" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,kafka,redis,postgres,docker,react,vite,git&theme=dark&perline=8" />
-  <br/>
-  <img src="https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge&logo=milvus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,js,pytorch,tensorflow,sklearn,fastapi,redis,kafka,postgres,docker,react,vite,git&theme=dark&perline=7" alt="Skill icons" />
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge&logo=milvus&logoColor=white" alt="Milvus" />
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111111" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" />
+  <img src="https://img.shields.io/badge/AWS%20Bedrock-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Bedrock" />
+</div>
 
 ---
 
-<!-- ============================================================ -->
-<!-- ========================= STATS =========================== -->
-<!-- ============================================================ -->
-### 📊 Stats
-
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Ramazanm1nd3R&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&icon_color=00A1EA&title_color=0e75b6" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramazanm1nd3R&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&title_color=0e75b6" />
+  <sub>Open the profile showcase: <a href="https://github.com/Ramazanm1nd3R">github.com/Ramazanm1nd3R</a></sub>
 </div>
 
-<div align="center">
-  <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ramazanm1nd3R&theme=tokyo-night&hide_border=true&area=true&color=00A1EA&line=6f42c1&point=ffffff" />
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:6f42c1,50:00A1EA,100:0e75b6&height=120&section=footer" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:7b2ff7,50:00A1EA,100:07111f" alt="footer" />
