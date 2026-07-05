@@ -48,75 +48,35 @@
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'#0b1220','primaryColor':'#132235','primaryTextColor':'#f4f7fb','primaryBorderColor':'#00C2FF','lineColor':'#7b2ff7','secondaryColor':'#0e75b6','tertiaryColor':'#0f172a'}}}%%
 graph TD
-    U["User Query"] --> RT["Routing Layer"]
-    U --> UI["React / SaaS UI"]
+    U["User / Admin"] --> FE["React UI"]
+    U --> API["FastAPI Backend"]
 
-    RT --> RX["Regex routing"]
-    RT --> NLU["NLU validation"]
-    RT --> LLMCLS["LLM-based intent classification"]
-    RT --> SCORE["Weighted scoring counters"]
+    FE --> API
 
-    LLMCLS --> BED["AWS Bedrock / Nova Pro"]
-    BED --> PROMPT["System prompts and behavioral instructions"]
-    BED --> CALC["calcguard for arithmetic safety"]
-    BED --> EDGE["Edge-case handling"]
+    API --> LLM["AWS Bedrock / Nova Pro"]
+    API --> RAG["RAG Pipeline"]
+    API --> NLP["ML / NLP"]
+    API --> AIR["Airflow"]
+    API --> RED["Redis"]
 
-    U --> RAG["RAG Orchestration"]
-    RAG --> DR["Dual rewrite for multi-product queries"]
-    RAG --> RET["Semantic retrieval debugging"]
-    RAG --> TAX["5-class hallucination taxonomy"]
-    TAX --> T1["INPUT_DISTORTION"]
-    TAX --> T2["KB_FAILURE"]
-    TAX --> T3["RETRIEVAL_FAILURE"]
-    TAX --> T4["LLM_FAILURE"]
-    TAX --> T5["AMBIGUOUS"]
+    RAG --> MIL["Milvus"]
+    RAG --> PG["PostgreSQL"]
+    RAG --> ORA["Oracle"]
 
-    RAG --> VS["Vector Search Layer"]
-    VS --> MIL["Milvus collections"]
-    VS --> BG["Blue-green collection deploy"]
-    VS --> EMB["Fine-tuned embeddings"]
-    EMB --> E1["Arctic Embed"]
-    EMB --> E2["Jina v5"]
-    EMB --> E3["Triplet training for retrieval"]
+    NLP --> NER["NER / PII"]
+    NLP --> EMB["Embeddings"]
+    NLP --> INT["Intent Classification"]
 
-    RAG --> KG["Knowledge Sources"]
-    KG --> PG["SQL BD / metadata"]
-    KG --> ORA["Oracle schemas / synced data"]
-    KG --> CONF["Confluence markdown / Graph RAG"]
-
-    RAG --> PIPE["Data Pipeline"]
-    PIPE --> AIR["Airflow DAGs"]
-    AIR --> PARSE["Page parsing"]
-    AIR --> FAQ["LLM FAQ generation"]
-    AIR --> SYNC["SQL BD <-> Milvus sync"]
-
-    U --> NLP["NLP Systems"]
-    NLP --> NER["NER training / fine-tuning"]
-    NER --> CONLL["CoNLL + synthetic datasets"]
-    NLP --> PII["PII anonymization pipeline"]
-    PII --> MLL["ML recognizer"]
-    PII --> POST["Regex / whitelist postfilter"]
-
-    UI --> DBUI["Database-driven constructors"]
-    DBUI --> DICT["Dictionaries"]
-    DBUI --> ROLE["Role models"]
-    DBUI --> KPI["KPI builders"]
-
-    APP["Backend Runtime"] --> FAST["FastAPI services"]
-    APP --> RED["Redis sessions / counters"]
-    APP --> DB["PostgreSQL / Oracle"]
-    APP --> OPS["Dockerized deployment"]
-
-    RAG --> APP
-    NLP --> APP
-    RT --> APP
+    AIR --> PARSE["Parsing"]
+    AIR --> FAQ["RAG Knowladge Base"]
+    AIR --> SYNC["DB Sync"]
 
     style U fill:#7b2ff7,stroke:#00C2FF,stroke-width:3px,color:#ffffff
-    style RT fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style FE fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style API fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
     style RAG fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
     style NLP fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
-    style UI fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
-    style APP fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
+    style AIR fill:#0e75b6,stroke:#00C2FF,stroke-width:2px,color:#ffffff
 ```
 
 ---
